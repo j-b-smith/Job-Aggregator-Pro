@@ -11,7 +11,6 @@ class Job(models.Model):
     salary_end = models.IntegerField()
     date_listed = models.DateField()
     created_at = models.DateTimeField(auto_now_add=True)
-    _id = models.AutoField(primary_key=True, editable=False)
     
     def __str__(self) -> str:
         return self.title

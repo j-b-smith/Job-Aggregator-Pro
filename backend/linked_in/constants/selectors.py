@@ -6,6 +6,8 @@ JOB_HEADER_INFO = {"jobs-unified-top-card__job-insight": "li"}
 EASY_APPLY_BUTTON = {"Easy Apply": "span"}
 JOB_DESCRIPTION = {"jobs-description-content__text": "div"}
 COMPANY_LOGO = {"img[title]"}
+JOB_ID = "data-entity-urn"
 
-def COMPANY_LOGO (company_name: str): 
+
+def COMPANY_LOGO(company_name: str):
     return {f'img[title="{company_name}"]'}
